@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-
+import { describe, it, expect } from "vitest";
 import { MyTest } from "../Test";
 
 describe("Test", () => {
