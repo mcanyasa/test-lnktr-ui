@@ -1,0 +1,21 @@
+/* React */
+import * as React from "react";
+
+/* Style */
+
+/* Interface & Type definitions */
+export interface I{{pascalCase name}} {
+  role?: string;
+}
+
+const My{{pascalCase name}}: React.FC<I{{pascalCase name}}> = ({ ...props }) => {
+  return (
+    <div className={"lnktr-{{kebabCase name}}"} {...props}>
+      {{pascalCase name}}
+    </div>
+  );
+};
+
+My{{pascalCase name}}.displayName = "{{pascalCase name}}"
+
+export { My{{pascalCase name}} };

@@ -1,0 +1,11 @@
+import { render } from "@testing-library/react";
+
+import { My{{pascalCase name}} } from "../{{pascalCase name}}";
+
+describe("{{pascalCase name}}", () => {
+  it("{{pascalCase name}} snapshot test", () => {
+    const wrapper = render(<My{{pascalCase name}} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
