@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import { My{{pascalCase name}} } from "../{{pascalCase name}}";
+import { {{pascalCase name}} } from "../src/{{pascalCase name}}";
 
-const meta: Meta<typeof My{{pascalCase name}}> = {
-    title: "Components/My{{pascalCase name}}",
-    component: My{{pascalCase name}},
+const meta: Meta<typeof {{pascalCase name}}> = {
+    title: "Components/{{pascalCase name}}",
+    component: {{pascalCase name}},
     argTypes: {
         role: {
             control: { type: "text" },
@@ -13,7 +13,7 @@ const meta: Meta<typeof My{{pascalCase name}}> = {
 }
 
 export default meta;
-type Story = StoryObj<typeof  My{{pascalCase name}}>;
+type Story = StoryObj<typeof  {{pascalCase name}}>;
 
 export const Default: Story = {
     args: {

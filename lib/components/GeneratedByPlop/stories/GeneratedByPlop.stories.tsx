@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import { MyTest } from "../Test";
+import { GeneratedByPlop } from "../src/GeneratedByPlop";
 
-const meta: Meta<typeof MyTest> = {
-    title: "Components/MyTest",
-    component: MyTest,
+const meta: Meta<typeof GeneratedByPlop> = {
+    title: "Components/GeneratedByPlop",
+    component: GeneratedByPlop,
     argTypes: {
         role: {
             control: { type: "text" },
@@ -13,7 +13,7 @@ const meta: Meta<typeof MyTest> = {
 }
 
 export default meta;
-type Story = StoryObj<typeof  MyTest>;
+type Story = StoryObj<typeof  GeneratedByPlop>;
 
 export const Default: Story = {
     args: {
