@@ -1,3 +1,3 @@
-import { ButtonComponent } from "./src/Button";
+import { Button, buttonVariants } from "./src/Button";
 
-export default { ButtonComponent };
+export default { Button, buttonVariants };

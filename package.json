@@ -3,7 +3,7 @@
   "private": false,
   "author": "Linktera",
   "description": "Linktera UI Library @linktera-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "type": "commonjs",
   "main": "./dist/index.umd.js",
