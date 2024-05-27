@@ -1,10 +1,10 @@
-import { MyAvatar, MyAvatarFallback, MyAvatarImage } from "../../../index";
+import { Avatar, AvatarFallback, AvatarImage } from "../../Avatar/src/Avatar";
 import type { Meta } from "@storybook/react";
 import { fn } from "@storybook/test";
 
 const meta = {
   title: "Example/Avatar",
-  component: MyAvatar,
+  component: Avatar,
   parameters: {
     layout: "centered",
   },
@@ -12,15 +12,15 @@ const meta = {
   argTypes: {
   },
   args: { onClick: fn() },
-} satisfies Meta<typeof MyAvatar>;
+} satisfies Meta<typeof Avatar>;
 export default meta;
 
 export function Default() {
   return (
-    <MyAvatar>
-    <MyAvatarImage src="https://github.com/shadcn.png" />
-    <MyAvatarFallback>CN</MyAvatarFallback>
-  </MyAvatar>
+    <Avatar>
+    <AvatarImage src="https://github.com/shadcn.png" />
+    <AvatarFallback>CN</AvatarFallback>
+  </Avatar>
   )
 }
 

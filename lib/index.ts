@@ -1,18 +1,19 @@
 import "./index.css";
-import { MyButtonComponent } from "./components/Button/Button";
+
 import {
-  MyAvatar,
-  MyAvatarImage,
-  MyAvatarFallback,
-} from "./components/Avatar/Avatar";
+  Avatar,
+  AvatarImage,
+  AvatarFallback,
+} from "./components/Avatar";
+import ButtonComponent from "./components/Button";
 import GeneratedByPlop from './components/GeneratedByPlop';
 /* IMPORT */
 
 export {
-  MyButtonComponent,
-  MyAvatar,
-  MyAvatarImage,
-  MyAvatarFallback,
+  Avatar,
+  AvatarImage,
+  AvatarFallback,
+  ButtonComponent,
 	GeneratedByPlop,
 /* EXPORT */
 };
